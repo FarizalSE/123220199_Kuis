@@ -41,6 +41,7 @@ public class PenilaianGUI {
                 AnimasiFrame animasiFrame = new AnimasiFrame();
                 animasiFrame.run();
             }
+    }
     
     private class MenulisListener implements ActionListener {
         @Override
@@ -48,6 +49,5 @@ public class PenilaianGUI {
             MenulisSuratFrame menulissuratFrame = new MenulisSuratFrame();
             menulissuratFrame.run();
         }
-    }
     }
 }
