@@ -24,7 +24,7 @@ public class PenilaianGUI {
         JButton animasiButton = new JButton("Animasi");
         animasiButton.addActionListener(new AnimasiListener());
         JButton menulisButton = new JButton("Menulis Surat");
-        menulisButton.addActionListener(new AnimasiListener());
+        menulisButton.addActionListener(new MenulisListener());
         
         
         mainPanel.add(animasiButton);
